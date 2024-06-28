@@ -9,7 +9,7 @@ interface valueProps{
 const NumberDisplay:FC<valueProps> = ({value}) => {
     return (
         <div>
-            0
+            {value}
         </div>
     );
 };
