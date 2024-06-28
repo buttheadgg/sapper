@@ -1,0 +1,83 @@
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background: url("/src/icons/sprites.png");
+    background-position: 0px -51px;
+}
+
+.Button:active {
+        width: 16px;
+        height: 16px;
+        background: url("/src/icons/sprites.png");
+        background-position: -17px -51px;
+}
+
+.Button.visible{
+    width: 16px;
+    height: 16px;
+    background: url("/src/icons/sprites.png");
+    background-position: -17px -51px;
+
+    &.value-1{
+        width: 16px;
+        height: 16px;
+        background: url("/src/icons/sprites.png");
+        background-position: 0px -68px;
+    }
+    
+    &.value-2{
+        width: 16px;
+        height: 16px;
+        background: url("/src/icons/sprites.png");
+        background-position: -17px -68px;
+    }
+    
+    &.value-3{
+        width: 16px;
+        height: 16px;
+        background: url("/src/icons/sprites.png");
+        background-position: -34px -68px;
+    }
+    
+    &.value-4{
+        width: 16px;
+        height: 16px;
+        background: url("/src/icons/sprites.png");
+        background-position: -51px -68px;
+    }
+    
+    &.value-5{
+        width: 16px;
+        height: 16px;
+        background: url("/src/icons/sprites.png");
+        background-position: -68px -68px;
+    }
+    
+    &.value-6{
+        width: 16px;
+        height: 16px;
+        background: url("/src/icons/sprites.png");
+        background-position: -85px -68px;
+    }
+    
+    &.value-7{
+        width: 16px;
+        height: 16px;
+        background: url("/src/icons/sprites.png");
+        background-position: -102px -68px;
+    }
+    
+    &.value-8{
+        width: 16px;
+        height: 16px;
+        background: url("/src/icons/sprites.png");
+        background-position: -119px -68px;
+    }
+}
+
+
+
+

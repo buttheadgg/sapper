@@ -11,9 +11,10 @@ export enum CellValue{
     bomb
 }
 
-export enum Mask {
+export enum CellState{
     Transparent,
-    Fill,
-    Flag,
-    Question
+    visible,
+    flagged
 }
+
+export type Cell = {value: CellValue, state: CellState}
