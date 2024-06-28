@@ -122,9 +122,16 @@ body{
     background-position: 0px -24px;
 }
 
-.faceSmile:active {
+.faceSmile:active{
     width: 26px;
     height: 26px;
     background: url("/src/icons/sprites.png");
     background-position: -27px -24px;
+}
+
+.faceOh {
+    width: 26px;
+    height: 26px;
+    background: url("/src/icons/sprites.png");
+    background-position: -54px -24px;
 }

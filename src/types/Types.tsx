@@ -14,7 +14,8 @@ export enum CellValue{
 export enum CellState{
     Transparent,
     visible,
-    flagged
+    flagged, 
+    question
 }
 
-export type Cell = {value: CellValue, state: CellState}
+export type Cell = {value: CellValue, state: CellState};
