@@ -65,15 +65,6 @@ body{
     height: 16px;
 }
 
-.mineRed{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 16px;
-    height: 16px;
-    background: url("/src/icons/sprites.png");
-    background-position: -102px -51px;
-}
 
 .mineDef{
     display: flex;
@@ -134,4 +125,18 @@ body{
     height: 26px;
     background: url("/src/icons/sprites.png");
     background-position: -54px -24px;
+}
+
+.faceDie {
+    width: 26px;
+    height: 26px;
+    background: url("/src/icons/sprites.png");
+    background-position: -108px -24px;
+}
+
+.faceWon {
+    width: 26px;
+    height: 26px;
+    background: url("/src/icons/sprites.png");
+    background-position: -81px -24px;
 }
