@@ -140,3 +140,76 @@ body{
     background: url("/src/icons/sprites.png");
     background-position: -81px -24px;
 }
+
+.Display{
+    display: flex;
+}
+.value-1{
+        width: 13px;
+        height: 23px;
+        background: url("/src/icons/sprites.png");
+        background-position: 0px 0px;
+    }
+    
+.value-2{
+        width: 13px;
+        height: 23px;
+        background: url("/src/icons/sprites.png");
+        background-position: -14px 0px;
+    }
+    
+.value-3{
+        width: 13px;
+        height: 23px;
+        background: url("/src/icons/sprites.png");
+        background-position: -28px 0px;
+    }
+    
+.value-4{
+        width: 13px;
+        height: 23px;
+        background: url("/src/icons/sprites.png");
+        background-position: -42px 0px;
+    }
+    
+.value-5{
+        width: 13px;
+        height: 23px;
+        background: url("/src/icons/sprites.png");
+        background-position: -56px 0px;
+    }
+    
+.value-6{
+        width: 13px;
+        height: 23px;
+        background: url("/src/icons/sprites.png");
+        background-position: -70px 0px;
+    }
+    
+.value-7{
+        width: 13px;
+        height: 23px;
+        background: url("/src/icons/sprites.png");
+        background-position: -84px 0px;
+    }
+    
+.value-8{
+        width: 13px;
+        height: 23px;
+        background: url("/src/icons/sprites.png");
+        background-position: -98px 0px;
+    }
+    
+.value-9{
+        width: 13px;
+        height: 23px;
+        background: url("/src/icons/sprites.png");
+        background-position: -112px 0px;
+}
+
+.value-0{
+    width: 13px;
+    height: 23px;
+    background: url("/src/icons/sprites.png");
+    background-position: -126px 0px;
+}

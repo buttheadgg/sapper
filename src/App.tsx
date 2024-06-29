@@ -4,7 +4,7 @@ import {generateCells, openMultipleCells} from '../src/utils/Utils'
 import { render } from '@testing-library/react';
 import Button from './components/button/Button';
 import { Cell, CellState, CellValue } from './types/Types';
-import { MAX_COLS, MAX_ROWS } from './constants/Constants';
+import { MAX_COLS, MAX_ROWS, NOMBER_OF_BOMBS } from './constants/Constants';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
   const [face, setFace] = useState(<div className='faceSmile'></div>);
   const [time, setTime] = useState(0);
   const [live, setLive] = useState<boolean>(false);
-  const [bombCount, setbombCount] = useState<number>(10);
+  const [bombCount, setbombCount] = useState<number>(NOMBER_OF_BOMBS);
   const [hasLost, setHasLost] = useState<boolean>(false);
   const [hasWon, setHasWon] = useState<boolean>(false);
 
